@@ -1,5 +1,3 @@
-
-on: [pull]
 workflow "Terraform" {
   resolves = "terraform-plan"
   on = "pull_request"
